@@ -1,0 +1,142 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,500&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font: 'Poppins';
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #0093E9;
+    text-align: center;
+    padding: 15px;
+
+}
+.search{
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+    width: 100%;
+    font-size: 20px;
+}
+
+.inputBox{
+    text-align: left;
+    border-radius: 5px;
+    padding:5px;
+    background-color: #fff;
+    width: 100%;
+    margin-right: 5px;
+}
+
+.searchIcon{
+    border-radius: 5px;
+    padding:10px;
+    background-color: #fff;
+}
+
+.search img{
+    width: 16px;
+    height: 16px;
+}
+
+.weather-icon img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.temp{
+    font-size: 60px;
+    color:#FFF;
+    text-align: center;
+}
+
+.cityname{
+    font-size: 60px;
+    color:#FFF;
+    text-align: center;
+}
+
+
+.details{
+    padding: 20px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    width: 100%;
+    background-color: rgb(143, 15, 228);
+}
+
+.details img{
+width: 40px;
+height: 30px;
+margin: 8px;
+}
+
+.HumidityData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.WindData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.WindSection{
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+    width: 170px;
+    padding: 10px;
+    margin-left:8px;
+}
+
+.HumiditySection{
+    text-align: center;
+    background-color: grey;
+    width: 160px;
+    padding: 10px;
+    margin-right:8px;
+    border-radius: 15px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h1{ 
+    font-size: 25px;  
+}
