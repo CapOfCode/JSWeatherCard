@@ -6,13 +6,23 @@ let tempEl = document.getElementById('temp'); //temp
 let humidityEl = document.getElementById('humidity'); //humidity 
 let windEl = document.getElementById('wind'); //wind
 
-button.addEventListener('click', getWeatherData);
+button.addEventListener('click', function(){
+  button.style.transform = "scale(1.2)";
+    setTimeout(function(){
+      button.style.transform = "scale(1)";
+    }, 100) 
+    getWeatherData();
+});
 document.addEventListener("keydown", function(event) {
   if (event.key === "Enter") {
-    button.classList.add('searchIcon:active');
+    button.style.transform = "scale(1.2)";
+    setTimeout(function(){
+      button.style.transform = "scale(1)";
+    }, 100) 
     getWeatherData();
   }
 });
+
 
 
 
