@@ -42,7 +42,7 @@ function getWeatherData() {
     humidityEl.innerText = humidity;
     tempEl.innerText = temp;
     windEl.innerText = windSpeed;
-    imgEl.setAttribute("src", img + ".png");
+    imgEl.setAttribute("src", img.toLowerCase() + ".png");
   });
 }
 
