@@ -64,6 +64,11 @@ input {
     background-color:#fff;
 }
 
+.searchIcon:active{
+    transform: scale(1.07);
+    animation: scale 0.5s
+}
+
 .search img{
     width: 20px;
     height: 20px;

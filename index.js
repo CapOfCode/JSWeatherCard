@@ -7,10 +7,10 @@ let humidityEl = document.getElementById('humidity'); //humidity
 let windEl = document.getElementById('wind'); //wind
 
 button.addEventListener('click', getWeatherData);
-document.addEventListener("keypress", function(event) {
+document.addEventListener("keydown", function(event) {
   if (event.key === "Enter") {
+    button.classList.add('searchIcon:active');
     getWeatherData();
-    // document.getElementById("myBtn").click();
   }
 });
 
