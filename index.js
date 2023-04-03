@@ -31,6 +31,7 @@ function getWeatherData() {
     return response.json();
   })
   .then((weatherData) => {
+
     let img = weatherData["weather"][0]["main"]
     let temp = Math.round(weatherData.main.temp);
     let humidity = weatherData.main.humidity
@@ -44,6 +45,8 @@ function getWeatherData() {
     imgEl.setAttribute("src", img + ".png");
   });
 }
+
+
 //Setting defult value of search input box//
 window.onload = function onloadCity(){
   document.getElementById("city").value = "Dhaka";
