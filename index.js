@@ -37,7 +37,7 @@ function getWeatherData() {
 
     let resStatus = response.status;
     let img = weatherData["weather"][0]["main"]
-    let temp = weatherData.main.temp;
+    let temp = Math.round(weatherData.main.temp);
     let humidity = weatherData.main.humidity
     let cityName = weatherData.name
     let windSpeed = weatherData.wind.speed
