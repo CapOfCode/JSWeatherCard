@@ -1,3 +1,5 @@
+Live Link : [\[Github\]](https://codewithrashed.github.io/JSWeatherAPP/)
+
 # JavaScript Weather App
 
 A simple web app that allows users to search for weather information for a specific city.
@@ -21,3 +23,6 @@ This project uses the OpenWeatherMap API to fetch weather data for a given city.
 ## Credits
 
 This project was created by me. Special thanks to OpenWeatherMap for providing the weather data API.
+
+## Knowledge
+This app help to to learn about work with apis. 
